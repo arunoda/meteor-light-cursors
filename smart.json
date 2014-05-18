@@ -1,0 +1,11 @@
+{
+  "name": "light-cursors",
+  "description": "Cursors without caching documents on the server",
+  "homepage": "https://github.com/arunoda/meteor-light-cursors",
+  "author": "Arunoda Susiripala <arunoda.susiripala@gmail.com>",
+  "version": "0.1.0",
+  "git": "https://github.com/arunoda/meteor-light-cursors.git",
+  "packages": {
+    "expose": {}
+  }
+}
