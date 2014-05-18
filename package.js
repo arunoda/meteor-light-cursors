@@ -15,13 +15,14 @@ Package.on_test(function(api) {
   ], 'server');
   
   api.add_files([
-    
+    'test/session_collection_view.js'
   ], 'server');
 });
 
 function configurePackage(api) {
   api.use(['expose'], 'server');
   api.add_files([
-
+    'lib/session.js',
+    'lib/session_collection_view.js'
   ], 'server');
 }
