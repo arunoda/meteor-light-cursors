@@ -12,11 +12,14 @@ Package.on_test(function(api) {
   configurePackage(api);
   api.use([
     'tinytest',
+    'test-helpers'
   ], 'server');
   
   api.add_files([
+    'test/helpers.js',
     'test/session_collection_view.js',
-    'test/light_added_logic.js'
+    'test/light_added_logic.js',
+    'test/integration.js'
   ], 'server');
 });
 
